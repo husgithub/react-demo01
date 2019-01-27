@@ -5,6 +5,7 @@ import './assets/css/App.css';
 //引入Home组件
 import Home from './components/Home';
 import Attrs from './components/Attrs';
+import MyButton from  './components/MyButton';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <Home></Home>
         <Attrs></Attrs>
+        <MyButton></MyButton>
       </div>
     );
   }
