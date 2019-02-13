@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 
+import Parent from './Parent';
+
 class Home extends Component{
     constructor(){
         super();
@@ -23,6 +25,7 @@ class Home extends Component{
                 <p>并且所有html元素必须放在一个根节点下!</p>
                 <p>{this.state.msg}</p>
                 <p>{this.state.people.name}</p>
+                <Parent></Parent>
             </div>
             
         )
